@@ -1,0 +1,399 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  position: relative;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 52px;
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+h1 span {
+  color: #FC5A51;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+@media (max-width: 992px) {
+  h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+@media (max-width: 992px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+p {
+  color: #373F51;
+  margin-bottom: 8px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+@media (max-width: 992px) {
+  p {
+    font-size: 16px;
+  }
+}
+p a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+ul li p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 50px;
+}
+.btn.btn-sm {
+  padding: 4px 20px;
+}
+.btn.btn-lg {
+  font-size: 16px;
+  padding: 14px 24px;
+  font-weight: 600;
+}
+.btn.btn-primary {
+  background: #0167EB;
+}
+.btn.btn-secondary {
+  background: #FC5A51;
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+@media (max-width: 992px) {
+  .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.container.dtb-nav {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card {
+  width: 100%;
+}
+.card.rounded-lg {
+  border-radius: 16px !important;
+}
+.card .card-header {
+  background: #ffffff;
+}
+.card h4 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.card h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card ul {
+  list-style-type: none;
+}
+.card ul li {
+  display: flex;
+  align-items: flex-start;
+}
+.card ul li p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.card ul li::before {
+  content: "✅";
+  margin-right: 8px;
+  padding-top: 2px;
+}
+.card.text-light {
+  color: #ffffff !important;
+}
+.card.text-light p {
+  color: #ffffff;
+}
+.card .price {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.img-cook {
+  width: 140%;
+  margin-bottom: -150px;
+  margin-top: -60px;
+  margin-left: -50px;
+}
+@media (max-width: 992px) {
+  .img-cook {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+.img-restaurants {
+  background-image: url("https://img.delitbee.com/website/es/b2b/logos-restaurants.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #ffffff;
+}
+@media (max-width: 992px) {
+  .img-restaurants {
+    background-position: 140px center;
+  }
+}
+@media (max-width: 576px) {
+  .img-restaurants {
+    background-position: 0 center;
+  }
+}
+
+.img-pos {
+  margin-top: -20px;
+  margin-left: -180px;
+  margin-bottom: -200px;
+  width: 150%;
+}
+@media (max-width: 1200px) {
+  .img-pos {
+    width: 200%;
+  }
+}
+@media (max-width: 992px) {
+  .img-pos {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -80px;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .img-pos {
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+}
+
+.img-people {
+  margin-top: -50px;
+  margin-left: -40px;
+  width: 130%;
+}
+@media (max-width: 992px) {
+  .img-people {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+footer.dtb-footer {
+  width: 100%;
+  background: #373F51;
+  padding: 50px;
+}
+
+.dtb-footer-container {
+  width: 100%;
+}
+
+.dtb-footer .pre-footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dtb-footer .post-footer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dtb-footer .pre-footer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dtb-footer .post-footer p {
+  color: white;
+}
+
+.dtb-footer .pre-footer img {
+  width: 220px;
+}
+
+.dtb-footer .pre-footer p {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.dtb-post-footer {
+  padding: 20px;
+  background: #293041;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dtb-post-footer .wp-block-group__inner-container {
+  width: 100%;
+}
+
+.dtb-post-footer .wp-block-group__inner-container div {
+  width: 100%;
+  display: flex;
+}
+
+.dtb-post-footer .wp-block-group__inner-container div p {
+  width: 50%;
+  text-align: right;
+}
+
+.dtb-post-footer p {
+  padding: 20px;
+  color: white;
+}
+
+@media (max-width: 740px) {
+  .dtb-footer .pre-footer {
+    flex-direction: column;
+  }
+  .dtb-post-footer .wp-block-group__inner-container div {
+    flex-direction: column;
+  }
+}
+header {
+  display: none;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wp-block-site-logo.is-default-size img {
+  width: 160px;
+  height: auto;
+}
+
+.dtb-menu {
+  background: #ffffff;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dtb-menu .wp-block-group__inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dtb-menu nav ul li a {
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dtb-menu nav ul li.current-menu-item a {
+  color: #FC5A51;
+}
+
+.dtb-menu .wp-block-social-links {
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+  padding: 0;
+}
+
+.dtb-menu .wp-block-button .wp-block-button__link {
+  background: #FC5A51;
+  padding: 6px 18px;
+}
+
+footer#footer {
+  display: none;
+}
+
+.dtb-footer .pre-footer .wp-block-button__link {
+  padding: 0;
+  background: transparent;
+}
+
+@media screen and (max-width: 992px) {
+  .dtb-menu .dtb-menu-extra,
+.dtb-nav {
+    display: none;
+  }
+}
+#dtb-integrations img {
+  width: 150px;
+  height: 150px;
+}
+#dtb-integrations .subtitle-integrations {
+  font-size: 10px;
+}/*# sourceMappingURL=styles.css.map */

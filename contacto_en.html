@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- Bootstrap Icon library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    integrity="sha384-He3RckdFB2wffiHOcESa3sf4Ida+ni/fw9SSzAcfY2EPnU1zkK/sLUzw2C5Tyuhj" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles.css">
+
+  <title>delitbee</title>
+</head>
+
+<body data-spy="scroll" data-target="#nav-scroll" data-offset="80">
+  <div class="alert alert-warning alert-dismissible fade show mb-0 text-center warning" role="alert">
+    <strong>☀️☀️☀️ ¡¡OFERTA DE VERANO!! ☀️☀️☀️ </strong> Hasta finales de Agosto <strong class="text-primary">50% de
+      descuento</strong> en todos nuestros planes.
+    <button class="btn btn-warning btn-sm pr-3 pl-3 ml-3 ">Ir a la oferta</button>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="container-fluid bg-white">
+    <div class="container dtb-nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="index.html">
+          <img width="220px" src="https://img.delitbee.com/website/es/b2b/delitbee-logo.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/digitalizacion.html">Digitalización <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/precios.html">Precios</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <a href="/contacto.html" class="btn btn-secondary btn-sm pr-3 pl-3 ml-3 ">Transforma tu negocio</a>
+      </nav>
+    </div>
+  </div>
+  <!-- Claim -->  
+  <div class="container-fluid">
+    <div class="container pb-0">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1>Contact us without commitment and let yourself be advised</h1>
+          <p>We have a team of experts in each of the areas that your business may need. We excell in digitalization in food delivery domain, with extensive experience in operations, technology and usability, key pieces to optimize your food delivery service.</p>        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Formulario -->
+  <div class="container-fluid" id="contact">
+    <div class="container pt-0">
+      <div class="col-12 text-center">
+        <div class="text-center" style="max-width: 800px; margin: 0 auto;">
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+          <script>
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "7878347",
+              formId: "10c5cdfa-1f58-401e-a16c-7649660342b1"
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script>
+    var offset = 90;
+    $('.sub-navbar li a').click(function (event) {
+      event.preventDefault();
+      $($(this).attr('href'))[0].scrollIntoView();
+      scrollBy(0, -offset);
+    });
+  </script>
+</body>
+
+</html>
